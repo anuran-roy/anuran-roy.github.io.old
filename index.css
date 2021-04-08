@@ -1,0 +1,59 @@
+.wrapper{
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+.section{
+  position: sticky;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+  /* text-shadow: 0 0 5px #000; */
+}
+.section2{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: justify;
+  justify-content: center;
+  color: white;
+}
+.text{
+  color: black;
+  font-size: 30px;
+}
+.h1{
+  font-size: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #000;
+}
+.h2{
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #000;
+}
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: cover !important;
+  z-index: -1;
+}
+.static {
+  background: white !important;
+}
+.bg1::after {
+  background-image: url('./assets/media/314764.png');
+}
+.bg2::after {
+  background-image: url('./assets/media/coding-laptop-1.jpg');
+}
