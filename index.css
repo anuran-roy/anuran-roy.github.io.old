@@ -1,5 +1,8 @@
 *{
-  cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur116.cur),progress;
+  cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1028.ani), url(https://cur.cursors-4u.net/cursors/cur-9/cur865.png), url(https://cur.cursors-4u.net/cursors/cur-2/cur116.cur), url(https://cur.cursors-4u.net/cursors/cur-11/cur1027.png), progress;
+}
+a:hover{
+  cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur117.cur), auto !important;
 }
 .wrapper{
   height: 100vh;
@@ -33,14 +36,14 @@
   color: black;
   font-size: 30px;
 }
-.h1{
+h1{
   font-size: 50px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #000;
   align-items: center;
   justify-content: center;
 }
-.h2{
+h2{
   font-size: 40px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #000;
@@ -66,13 +69,23 @@
   background-image: url('./assets/media/coding-laptop-1.jpg');
 }
 .header {
-  position: sticky;
+  position: inherit;
   display: flex;
   flex-direction: row;
   background: black;
   justify-content: space-between;
   height: 60px;
   z-index: 2;
+}
+.footer {
+  position: bottom;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  justify-content: space-between;
+  height: 60px;
+  z-index: 2;
+
 }
 .card{
   font-size: 30px;
@@ -86,16 +99,35 @@
   background: red;
   color: white;
   transform: scale(1.1);
+  cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur117.cur),auto !important;
 }
 a:link{
   color: black;
   text-decoration: none;
 }
+
 @media (max-width:1020px){
   .bg1::after {
     background-image: url('./assets/media/codem.png');
   }
   .bg2::after {
     background-image: url('./assets/media/codem2.jpg');
+  }
+  .card{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    transition: 0.3s;
+    color: #fff;
+  }
+  .card:hover{
+    background: red;
+    color: white;
+    transform: scale(1.1);
+  }
+  .text{
+    color: black;
+    font-size: 20px;
   }
 }
