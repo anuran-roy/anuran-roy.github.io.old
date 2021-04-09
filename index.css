@@ -1,8 +1,11 @@
+*{
+  cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur116.cur),progress;
+}
 .wrapper{
   height: 100vh;
   overflow-x: none;
   overflow-y: auto;
-  perspective: 2px;
+  perspective: 0px;
 }
 .section{
   position: relative;
@@ -24,6 +27,7 @@
   justify-content: center;
   color: white;
   z-index: 0;
+  overflow: hidden;
 }
 .text{
   color: black;
@@ -56,10 +60,36 @@
   background: white !important;
 }
 .bg1::after {
-  background-image: url('./assets/media/code2.png');
+  background-image: url('./assets/media/code4.png');
 }
 .bg2::after {
   background-image: url('./assets/media/coding-laptop-1.jpg');
+}
+.header {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  background: black;
+  justify-content: space-between;
+  height: 60px;
+  z-index: 2;
+}
+.card{
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  transition: 0.3s;
+  color: #fff;
+}
+.card:hover{
+  background: red;
+  color: white;
+  transform: scale(1.1);
+}
+a:link{
+  color: black;
+  text-decoration: none;
 }
 @media (max-width:1020px){
   .bg1::after {
