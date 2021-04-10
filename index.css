@@ -153,6 +153,6 @@ a:link{
     justify-content: space-evenly;
     height: 30px;
     z-index: 2;
-  
+    padding: 30px;
   }
 }
