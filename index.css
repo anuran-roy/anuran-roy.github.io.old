@@ -95,7 +95,7 @@ h2{
   justify-content: space-evenly;
   height: 60px;
   z-index: 2;
-  padding: 30px;
+  padding: 10px;
 
 }
 .card{
@@ -105,6 +105,8 @@ h2{
   padding: 10px;
   transition: 0.3s;
   color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .card:hover{
   background: red;
