@@ -14,6 +14,7 @@ a:hover{
   perspective: 0px;
 }
 .section{
+  margin: 30px;
   position: relative;
   height: auto;
   display: flex;
@@ -66,10 +67,10 @@ h2{
   background: white !important;
 }
 .bg1::after {
-  background-image: url('./assets/media/code4.png');
+  background-image: url('./assets/media/tinified/code4.png');
 }
 .bg2::after {
-  background-image: url('./assets/media/coding-laptop-1.jpg');
+  background-image: url('./assets/media/tinified/coding-laptop-1.jpg');
 }
 .header {
   margin: 0px;
@@ -118,10 +119,10 @@ a:link{
 
 @media (max-width:1020px){
   .bg1::after {
-    background-image: url('./assets/media/codem.png');
+    background-image: url('./assets/media/tinified/codem.png');
   }
   .bg2::after {
-    background-image: url('./assets/media/codem2.jpg');
+    background-image: url('./assets/media/tinified/codem2.jpg');
   }
   .card{
     font-size: 10px;
