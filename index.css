@@ -1,6 +1,9 @@
 *{
   cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1028.ani), url(https://cur.cursors-4u.net/cursors/cur-9/cur865.png), url(https://cur.cursors-4u.net/cursors/cur-2/cur116.cur), url(https://cur.cursors-4u.net/cursors/cur-11/cur1027.png), progress;
 }
+body{
+  margin: 0px;
+}
 a:hover{
   cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur117.cur), auto !important;
 }
@@ -69,13 +72,16 @@ h2{
   background-image: url('./assets/media/coding-laptop-1.jpg');
 }
 .header {
-  position: inherit;
+  margin: 0px;
+  position: fixed;
   display: flex;
   flex-direction: row;
   background: black;
+  align-items: justify;
   justify-content: space-between;
   height: 60px;
   z-index: 2;
+  padding: 10px;
 }
 .footer {
   /* margin: 2px; */
@@ -88,6 +94,7 @@ h2{
   justify-content: space-evenly;
   height: 60px;
   z-index: 2;
+  padding: 30px;
 
 }
 .card{
@@ -141,6 +148,7 @@ a:link{
     justify-content: space-between;
     height: 30px;
     z-index: 2;
+    padding: 10px;
   }
   .footer {
     /* margin: 2px; */
@@ -154,5 +162,8 @@ a:link{
     height: 30px;
     z-index: 2;
     padding: 30px;
+  }
+  body{
+    margin: 0px;
   }
 }
