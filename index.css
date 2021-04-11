@@ -44,6 +44,10 @@ a:hover{
   color: white;
   font-size: 30px;
 }
+.chart{
+  width: 822px;
+  height: 672px;
+}
 h1{
   font-size: 50px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -145,32 +149,41 @@ a:link{
   }
   .text{
     color: black;
-    font-size: 10px;
+    font-size: 15px;
   }
   .header {
-    position: inherit;
+    position: fixed;
     display: flex;
     flex-direction: row;
     background: black;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 30px;
     z-index: 2;
     padding: 10px;
   }
   .footer {
     /* margin: 2px; */
+    position: relative;
     border: 5px red;
     position: bottom;
     display: flex;
     flex-direction: row;
-    background: grey;
+    background: black;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 30px;
     z-index: 2;
     padding: 30px;
   }
   body{
     margin: 0px;
+  }
+  .chart{
+    width: 411px;
+    height: 336px;
+  }
+  .inverse-text{
+    color: white;
+  font-size: 13px;
   }
 }
