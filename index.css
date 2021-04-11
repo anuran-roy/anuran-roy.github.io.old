@@ -135,7 +135,7 @@ a:link{
     background-image: url('./assets/media/tinified/codem2.jpg');
   }
   .card{
-    font-size: 10px;
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     padding: 10px;
