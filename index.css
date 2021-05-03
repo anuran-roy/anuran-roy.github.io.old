@@ -127,7 +127,7 @@ a:link{
   text-decoration: none;
 }
 
-@media (max-width:768px){
+@media (max-device-aspect-ratio: 1/2){
   .bg1::after {
     background-image: url('./assets/media/tinified/codem.png');
   }
@@ -152,7 +152,8 @@ a:link{
     font-size: 15px;
   }
   .header {
-    position: fixed;
+    position: sticky;
+    position: -webkit-sticky;
     display: flex;
     flex-direction: row;
     background: black;
@@ -160,6 +161,7 @@ a:link{
     height: 30px;
     z-index: 2;
     padding: 10px;
+    width: 100%;
   }
   .footer {
     /* margin: 2px; */
